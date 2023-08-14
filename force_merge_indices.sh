@@ -12,8 +12,8 @@ do
     if [ $? -eq 0 ]
     then
 	    echo "Successfully merge $index"
-	    exit 0
 	    echo "~~~~~~~~~~~~~~~~~~~~~~~~"
+	    exit 0
     else
 	    echo "Could not merge $index" >&2
 	    exit 1
